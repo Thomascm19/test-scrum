@@ -5,10 +5,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SharedComponent } from './components/shared/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
